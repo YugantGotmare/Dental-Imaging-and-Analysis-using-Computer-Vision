@@ -1,4 +1,4 @@
-# Teeth and Nerve Segmentation
+# Dental Imaging and Analysis using Computer Vision
 
 ## Overview
 Teeth and Nerve Segmentation is a web-based application built using Streamlit that helps users segment teeth and nerve structures in medical images. The application allows users to upload images and apply pre-trained machine learning models for segmentation.
@@ -13,7 +13,7 @@ Teeth and Nerve Segmentation is a web-based application built using Streamlit th
 ## Technologies Used
 - **Frontend**: Streamlit
 - **Backend**: Python
-- **Machine Learning Models**: Pre-trained segmentation models
+- **Machine Learning Models**: Pre-trained segmentation models (YoloV8 Segmentation)
 - **APIs & Libraries**:
   - PIL (for image processing)
   - pathlib (for handling file paths)
@@ -23,8 +23,8 @@ Teeth and Nerve Segmentation is a web-based application built using Streamlit th
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/teeth-nerve-segmentation.git
-   cd teeth-nerve-segmentation
+   git clone https://github.com/YugantGotmare/Dental-Imaging-and-Analysis-using-Computer-Vision.git
+   cd /Dental-Imaging-and-Analysis-using-Computer-Vision
    ```
 2. Create a virtual environment and install dependencies:
    ```bash
