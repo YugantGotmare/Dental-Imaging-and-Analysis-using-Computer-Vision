@@ -274,7 +274,7 @@ elif model_type == 'Nerve segmentation':
         
 elif model_type == 'Caries Detection':
     # Load Keras model for caries detection
-    caries_model_path = r'G:\MyZone\Dental_disease\weight\vgg16_unet_model.h5'
+    caries_model_path = Path(settings.CARIES_MODEL)
     try:
         with st.spinner('🔄 Loading Caries Detection Model...'):
             model = load_model(caries_model_path)
