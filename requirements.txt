@@ -1,2 +1,11 @@
-pytube 
+streamlit
+python-dotenv
 ultralytics
+opencv-python
+tensorflow
+keras
+Pillow
+numpy
+matplotlib
+pytube
+pathlib
