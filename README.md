@@ -57,20 +57,24 @@ The **Dental Analysis System** is an advanced web-based application built with S
 ```
 Dental-Analysis-System/
 │
-├── app.py                  # Main application file
-├── helper.py              # Helper functions for YOLO models
-├── settings.py            # Configuration and paths
-├── requirements.txt       # Project dependencies
-├── README.md             # Project documentation
-│
+├── Notebooks/             # Jupyter notebooks for experiments
+├── __pycache__/          # Python cache files
+├── images/               # Input images directory
+├── output/               # Output results directory
 ├── weights/              # Model weights directory
 │   ├── best_seg_200ep_YOLOv8l.pt    # Teeth segmentation model
 │   ├── best_nerve.pt                 # Nerve segmentation model
 │   └── vgg16_unet_model.h5          # Caries detection model
 │
-└── images/               # Default images directory
-    ├── teeth1.jpg        # Default input image
-    └── yolov8_l2_2.jpeg  # Default result image
+├── .gitignore            # Git ignore file
+├── README.md             # Project documentation
+├── app.py                # Main application file
+├── data.yaml             # Dataset configuration
+├── helper.py             # Helper functions for YOLO models
+├── packages.txt          # System packages
+├── requirements.txt      # Python dependencies
+├── settings.py           # Configuration and paths
+└── Python.gitignore      # Python-specific gitignore
 ```
 
 ## 🚀 Installation & Setup
