@@ -114,11 +114,7 @@ Dental-Analysis-System/
    ```python
    SEGMENTATION_MODEL = MODEL_DIR / 'best_seg_200ep_YOLOv8l.pt'
    NERVE_MODEL = MODEL_DIR / 'best_nerve.pt'
-   ```
-   
-   Update `app.py` for caries model path (line ~280):
-   ```python
-   caries_model_path = r'path/to/your/vgg16_unet_model.h5'
+   CARIES_MODEL = MODEL_DIR / 'vgg16_unet_model.h5'
    ```
 
 5. **Run the application:**
