@@ -1,7 +1,7 @@
-# 🦷 Dental Analysis System
+# 🦷 Dental Imaging Analysis System
 
 ## 📋 Overview
-The **Dental Analysis System** is an advanced web-based application built with Streamlit that leverages AI and computer vision for comprehensive dental image analysis. The system provides three specialized analysis modes: teeth segmentation, nerve segmentation, and caries detection, enabling dental professionals and researchers to perform detailed diagnostic assessments.
+The **Dental Imaging Analysis System** is an advanced web-based application built with Streamlit that leverages AI and computer vision for comprehensive dental image analysis. The system provides three specialized analysis modes: teeth segmentation, nerve segmentation, and caries detection, enabling dental professionals and researchers to perform detailed diagnostic assessments.
 
 ## ✨ Features
 
